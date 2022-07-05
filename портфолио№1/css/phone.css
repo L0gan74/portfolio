@@ -1,0 +1,117 @@
+@media screen and (max-width: 880px){
+    .foundation_left_text_top h1 {
+        font-size: 30px;
+    }
+
+    .skills_text h2 {
+        font-size: 30px;
+    }
+
+    .skills_text h2{
+        margin-bottom: 0;
+    }
+
+    .myWorks_block_top h2 {
+        font-size: 30px;
+    }
+
+    .cooperation {
+        margin: 70px 0;
+    }
+   
+}
+
+@media screen and (max-width: 769px){
+    .cooperation_block{
+        display: block;
+    }
+    .cooperation_block{
+        display: block;
+    }
+
+    .footer{
+        margin-top: 70px;
+    }
+
+    .hat_block{
+        height: 80px;
+    }
+    .hat_logo {
+        margin-top: 10px; 
+   }
+   .menu__btn {
+       top: 25px;
+   }
+
+}
+
+@media screen and (max-width: 600px){
+    .foundation_left_text_top h1 {
+        font-size: 25px;
+    }
+
+    .hat_logo p {
+        font-size: 16px;
+    }
+
+    .foundation_left {
+         margin-top: 100px; 
+        z-index: 2;
+    }
+    .foundation_img img {
+        position: absolute;
+        right: 40px;
+        z-index: 1;
+        top: 100px;
+    }
+
+    .foundation_left_text_bottom button {
+        padding: 9px 20px 9px 20px;
+    }
+
+    .foundation_block {
+        margin-bottom: 50px;
+    }
+
+}
+
+@media screen and (max-width: 575px){
+   .full{
+       margin: 0 10px;
+   }
+   .menu__btn {
+    right: 30px;
+  }
+}
+
+
+@media screen and (max-width: 429px){
+    .cooperation_input_bottom textarea{
+        width: 300px;
+    }
+
+    .text_top_boot p {
+        margin: 50px 0 0 0;
+    }
+
+    .text_top_fig p {
+        margin: 50px 0 0 0;
+    }
+
+    .text_top_js p {
+        margin: 47px 0 0 0;
+    }
+
+    .foundation_img img {
+
+       width: 400px;
+       height: 600px;
+    }
+}
+
+
+@media screen and (max-width: 383px){
+    .cooperation_input_top input{
+        width: 250px;
+    }
+}

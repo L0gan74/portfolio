@@ -1,0 +1,363 @@
+@media screen and (max-width: 380px) {
+    .goods{
+        display: none;
+    }
+    .b_r_1_a{
+       left: 1px;
+    }
+    .recall img{
+        margin-top: 15px;
+    }
+    /*шапка*/
+    .nav_logo img{
+        width: 90px;
+        height: 14.63px;
+        margin-left: 20px;
+    }
+    .nav_navigation_mobile{
+        display: flex;
+    }
+    .navigation{
+        margin-top: 17.72px;
+    }
+    .navigation{
+        width: auto;
+    }
+
+    .recall img{
+        width: 18.57px;
+        height: 18.57px;
+    }
+    .burger_menu_btn img{
+        width: 18.57px;
+        height: 18.57px;
+    }
+    /*конец шапка*/
+    
+    /*меню*/
+
+    .menu_left_text_krug img{
+        width: 313.05px;
+        height: 313.05px;
+        position: absolute;
+left: 220px;
+z-index: 1;
+pointer-events: none;
+top: 100px;
+    }
+
+    .menu_left_text h1{
+        font-size: 24px;
+line-height: 120%;
+text-align: center;
+letter-spacing: 0.1em;
+    }
+    .menu_left_text p{
+        font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 20px;
+text-align: center;
+color: #91A4B8;
+
+    }
+    /*правый блок*/
+
+    .block_right_1 img{
+
+
+    }
+
+    .block_right_1{
+        position: relative;
+        bottom: 100px;
+        z-index: 5;
+        right: 25px;
+    }
+
+    .block_right_1_text p{
+        font-family: Futura PT;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+padding-top: 12.36px;
+    }
+    .block_right_1_text img{
+        margin-top: 14px;
+    }
+    .left_block_2 img{
+        width: 128.45px;
+        height: 121.98px;
+    }
+    
+
+
+    .block_2_right img{
+        width: 128.45px;
+
+    }
+
+
+    /*диллеры*/
+    .dealers_top_text h2{
+        font-family: Futura PT;
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 32px;
+letter-spacing: 0.06em;
+color: #BBA390;
+    }
+    .dealers_top_text p{
+        font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 28px;
+text-align: left;
+color: #5B82A9;
+
+    }
+    .dealers_portners_1{
+        display: flex;
+    }
+    .dealers_portners_1 img{
+margin-left: 36.25px;
+    }
+    .dealers_portners_1 p{
+        font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 20px;
+color: #8CAAC8;
+align-items: center;
+    }
+    .foto_1{
+        width: 54px;
+        height: 53px;
+    }
+
+    .foto_2{
+        width: 41.05px;
+height: 68.06px;
+    }
+    .foto_3{
+        width: 40.73px;
+height: 54.64px;
+    }
+    .foto_4{
+        width: 39.77px;
+height: 67.9px;
+    }
+    .text_1{
+        padding: 0 0 0 24.66px;
+        margin-top: -50px;
+    }
+    .application_telephone input{
+        width: 280px;
+height: 46px;
+border: 1px solid #385980;
+box-sizing: border-box;
+    }
+    .application_telephone button{
+        width: 280px;
+height: 46px;
+margin-top: 21.31px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 30px;
+color: #FFFFFF;
+    }
+    
+}
+
+@media screen and (max-width: 414px){
+    .menu_left_text h1{
+        text-align: center;
+font-family: Futura PT;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 120%;
+text-align: center;
+letter-spacing: 0.1em;
+color: #BBA390;
+    }
+    .menu_left_text p{
+        font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 20px;
+text-align: center;
+color: #91A4B8;
+    }
+    .nav_logo img{
+        width: 90px;
+        height: 14.63px;
+    }
+    .nav_top{
+        margin: 104.4px 20px 0 20px;
+    }
+    .bl_k_1{
+        position: relative;
+        top: -70px;
+        z-index: 22;
+        height: 300px;
+        text-align: center;
+        margin:0 ;
+    }
+    .bk_1{
+        width: 297.88px;
+height: 281.39px;
+    }
+    .menu1{
+        margin-bottom: 300px;
+    }
+    .bk_2 img{
+        width: 128.45px;
+height: 121.98px;
+    }
+    .bk_3 img{
+        width: 128.45px;
+height: 177.79px;
+    }
+    .bl_k_3{
+        
+    }
+    .bl_k_2{
+        
+    }
+    .text_tel{
+        position: relative;
+        top: 230px;
+        white-space: pre-line;
+        line-height: 5px;
+letter-spacing: 0.01em;
+    }
+    .dealers_top_text{
+        margin-left: 20px;
+    }
+    .dealers_top_text h2{
+        text-align: left;
+        width: 300px;
+    word-break: break-all;
+    }
+    .dealers_top_text p{
+        text-align: left;
+    }
+    .dealers_portners_1{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .dealers_portners_1 p{
+        text-align: left;
+        width: 150px;
+        padding: 0;
+    }
+    .foto_1{
+        width: 54.38px;
+        height: 53px;
+    }
+    .foto_2{
+        width: 41.05px;
+height: 68.06px;
+    }
+    
+    .foto_3{
+        width: 40.73px;
+height: 54.64px;
+    }
+    .foto_4{
+        width: 39.77px;
+height: 67.9px;
+    }
+    .dealers_portners{
+        position: relative;
+        bottom: 30px;
+    }
+    .application{
+        position: relative;
+        bottom: 40px;
+    }
+    .application input{
+        border: 1px solid #385980;
+box-sizing: border-box;
+background-color: transparent;
+    }
+
+    .studios_text{
+        text-align: center;
+    }
+    .studios_block_1{
+        width: 130px;
+height: 205.66px;
+    }
+    .studios_block_2{
+        width: 130px;
+height: 205.66px;
+    }
+    .studios{
+        position: relative;
+        bottom: 150px;
+    }
+
+}
+
+@media screen and (max-width: 492px){
+    .block_right_1_text p{
+        font-family: Futura PT;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        /* or 133% */
+        
+        letter-spacing: 0.06em;
+        margin-top: 16px;
+        color: #FFFFFF;
+    }
+    .footer_left_img_adp img {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .nav_navigation_mobile{
+        position: relative;
+        top: 5px;
+    }
+    .nav_logo img{
+      right: 40px;
+      position: relative;
+    }
+    .block_right_1_text p{
+        margin-top: 0;
+    }
+    .footer_center{
+        width: calc(100% + 15px);
+    }
+    .footer_right{
+        width: calc(100% + 15px);
+    }
+    .footer_left{
+        width: calc(100% + 15px);
+    }
+    .footer_bottom{
+        width: calc(100% + 15px);
+    }
+}
+
+@media screen and (max-width: 593px){
+    .nav_top{
+        justify-content: space-around;
+    }
+}

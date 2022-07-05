@@ -1,0 +1,231 @@
+@media screen and (max-width: 1200px) {
+    .hat_logo p {
+        font-size: 20px;
+        margin-top: 7px;
+    }
+    .foundation_left_text_top h1 {
+        font-size: 40px;
+    }
+    .foundation_left_text_top p {
+        font-size: 16px;
+    }
+    .foundation_left_text_bottom a {
+        font-size: 16px;
+    }
+    .aboutMe_text_top p {
+        font-size: 30px;
+    }
+    .aboutMe_text_bottom p {
+        font-size: 20px;
+    }
+    .myWorks_block_top h2 {
+        font-size: 50px;
+    }
+    .myWorks_block_top {
+        margin: 70px 0;
+    }
+    .myWorks_block_1_text p {
+        font-size: 20px;
+    }
+    .cooperation_right_top h3 {
+        font-size: 30px;
+    }
+    .cooperation_input_top p {
+        font-size: 16px;
+    }
+}
+
+@media  screen and(max-width:1048){
+    .cooperation_input_bottom textarea{
+        width: 450px;
+    }
+} 
+
+
+@media  screen and(max-width:1024) {
+    *:hover {
+        box-shadow: none;
+        }
+
+        .cooperation_right {
+            margin-left: 50px;
+        }
+}
+
+@media screen and (max-width: 992px) {
+    .hat_navigation {
+        display: none;
+    }
+    .hat_block{
+        height: 100px;
+    }
+    .hat_logo {
+         margin-top: 15px; 
+    }
+    .menu__btn {
+        top: 40px;
+    }
+    .bootstrap {
+        display: none;
+    }
+    .vscode {
+        display: none;
+    }
+    .figma {
+        display: none;
+    }
+    .open {
+        display: block;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .open button {
+        font-family: Abhaya Libre;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+        width: 227px;
+        height: 55px;
+        border: 2px solid #FF6E30;
+        border-radius: 15px;
+        background: none;
+        justify-content: center;
+    }
+    .aboutMe_img img {
+        width: 300px;
+    }
+
+    .hamburger-menu{
+        display: block;
+    }
+
+    .menu__btn {
+        right: 50px;
+      }
+}
+
+@media screen and (max-width: 991px){
+    .myWorks_block_3 {
+        margin-top: 30px;
+    }
+
+    .cooperation {
+        margin-bottom: 0;
+    }
+
+    .footer {
+        margin-top: 80px;
+    }
+}
+
+
+
+@media screen and (max-width: 882px) {
+    .cooperation_img {
+        display: none;
+    }
+    .cooperation_right_top {
+        text-align: center;
+    }
+    .cooperation_right {
+        margin-left: 0;
+    }
+    .footer_block {
+        display: block;
+    }
+    .footer_links {
+        justify-content: center;
+    }
+    .cooperation {
+        margin-bottom: 0;
+    }
+    .skills {
+        margin-top: 50px;
+    }
+    .foundation_img img {
+        width: 489px;
+        height: 692px;
+        position: absolute;
+        right: 40px;
+        z-index: 1;
+        top: 150px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .javascript {
+        margin-top: 50px;
+    }
+    .cooperation_btn {
+        text-align: center;
+    }
+    .cooperation_right {
+        text-align: center;
+    }
+    .vscode {
+        margin-top: 50px;
+    }
+    .footer_links {
+        justify-content: center;
+    }
+    .footer_block {
+        display: block;
+    }
+    .cooperation_img {
+        display: none;
+    }
+
+    .cooperation_right{
+        margin-left: 0;
+    }
+
+    .cooperation_block{
+        justify-content: center;
+    }
+
+    .cooperation_input_bottom textarea{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .aboutMe_block {
+        padding-top: 0;
+    }
+    .aboutMe_text_top p {
+        display: none;
+    }
+    .aboutMe_img {
+        justify-content: center;
+        display: flex;
+    }
+    .aboutMe_text_top {
+        margin-top: 0;
+    }
+    .aboutMe_text {
+        margin-left: 0;
+        text-align: center;
+    }
+    .aboutMe_text_adp {
+        display: block;
+    }
+    .aboutMe_text_adp p {
+        margin-bottom: 20px;
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 27px;
+        text-align: center;
+        color: #000000;
+    }
+    .aboutMe_text_bottom p {
+        margin-top: 20px;
+    }
+    .aboutMe_block {
+        padding: 50px 0 50px 0;
+        display: block;
+    }
+}

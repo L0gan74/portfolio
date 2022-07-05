@@ -1,0 +1,91 @@
+@media screen and (max-width:504px){
+    .reviews_right_top{
+        display: block;
+    }
+
+    .main_lower_top p {
+        font-size: 24px;
+line-height: 130%;
+    }
+}
+
+@media screen and (max-width:340px){
+    .applications_input_left input {
+        width: 280px;
+        height: 64px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .footer_adp_l_c{
+        display: none;
+    }
+
+    .footer_left_bottom{
+        display: none;
+    }
+
+    .footer_center_bottom{
+        display: none;
+    }
+    
+    .footer_right_center{
+        display: none;
+    }
+
+    .footer_mobail{
+        display: block;
+    }
+
+    .footer_mobail_block_1{
+        margin-top: 60px;
+        display: flex;
+    }
+
+    .f_m_top{
+        font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 150%;
+color: #FFFFFF;
+    }
+
+    .f_m_bot{
+        font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 135%;
+color: #8B95A0;
+    }
+
+    .footer_mobail_block_1 select{
+        background-color : #0F0E10;
+        color: #fff;
+        border: 0;
+    }
+
+    .footer_mobail_block_1 option{
+    border: 0;
+    }
+
+    .f_m_top_2{
+        padding-right: 137px;
+    }
+
+    .f_m_top_3{
+        padding-right: 10px;
+    }
+
+    .f_m_top_4{
+        padding-right: 97px;
+    }
+
+    .f_m_top_5{
+        padding-right: 295px;
+    }
+    
+}
+
+
+
+

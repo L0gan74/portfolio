@@ -1,0 +1,176 @@
+.menuBackground {
+    position: fixed;
+    z-index: 9999;
+    display: block;
+    width: 2px;
+    height: 2px;
+    top: -2px;
+    right: -2px;
+    background: black;
+}
+
+.menuBackgroundContent {
+    opacity: 0;
+    margin-top: 120px;
+}
+
+.menu_top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_top img:nth-child(1){
+    margin-top: 50px;
+    position: relative;
+    bottom: 50px;
+}
+
+
+.menu_top img:nth-child(2){
+    width: 12px;
+    margin-top: 40px;
+    height: 12px;
+}
+
+.menu_top a{
+    margin-top: 40px;
+padding: 18px 0 0 18px;
+width: 64px;
+height: 64px;
+border: 2px solid #2D3845;
+border-radius: 12px;
+cursor: pointer;
+}
+
+.menu_nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu_nav p{
+    font-style: normal;
+font-weight: 600;
+font-size: 80px;
+line-height: 120%;
+color: #FFFFFF;
+padding-right: 50px;
+}
+
+.menu_services{
+    margin-top: 100px;
+}
+
+.menu_services a{
+    font-style: normal;
+font-weight: 600;
+font-size: 80px;
+line-height: 120%;
+color: #8B95A0;
+}
+
+.menu_bottom{
+    display: flex;
+    margin-top: 40px;
+}
+
+.menu_bottom a{
+    font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 150%;
+color: #FFFFFF;
+padding-right: 60px;
+}
+
+.menu_messenger{
+    display: none;
+}
+
+.menu_services_adp{
+    display: none;
+}
+
+@media screen and (max-width: 1200px){
+
+    .menu_nav p{
+        font-size: 52px;
+line-height: 120%;
+    }
+    
+.menu_services a{
+    font-size: 52px;
+    line-height: 120%;
+}
+
+.menu_messenger{
+    display: block;
+    margin-top: 108.5px;
+}
+
+.menu_messenger_text p{
+    font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 150%;
+padding-right: 20px;
+color: #8B95A0;
+}
+
+.menu_messenger_img img{
+    width: 44px;
+height: 44px;
+margin-right: 20px;
+}
+
+.menu_messenger_img{
+    display: flex;
+    position: relative;
+    bottom: 7px;
+}
+
+.menu_messenger_block{
+    display: flex;
+}
+    
+}
+
+@media screen and (max-width: 992px){
+    .menu_services{
+        display: none;
+    }
+
+    .menu_bottom{
+        display: none;
+    }
+
+    .menu_services_adp{
+        display: block;
+    }
+
+    .menu_nav{
+        display: block;
+    }
+
+    .menu_services_adp select{
+        background: black;
+        color: #8B95A0;
+        border: 0;
+    }
+
+    .menu_services_adp_top{
+        font-style: normal;
+font-weight: 600;
+font-size: 52px;
+line-height: 120%;
+    }
+}
+
+@media screen and (max-width: 590px){
+    .menu_messenger_block{
+        display: block;
+    }
+
+    .menu_nav p {
+        font-size: 32px;
+    }
+}

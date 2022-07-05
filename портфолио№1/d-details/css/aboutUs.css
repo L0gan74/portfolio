@@ -1,0 +1,323 @@
+/*aboutUs*/
+.video {
+  width: 100%;
+  height: 600px;
+  border: 1px solid white;
+  margin-bottom: 175px;
+}
+
+.about__us h3 {
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 120%;
+  color: #ffffff;
+}
+
+.about__us__block {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.about__us label {
+  width: 200px;
+  height: 10px;
+  background-color: #684cd4;
+  position: relative;
+  right: 30px;
+}
+
+.about__us__text {
+  width: 599px;
+  margin-right: 91px;
+}
+
+.about__us__text p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 200%;
+  color: #ffffff;
+}
+
+.about__us__text p:nth-child(1) {
+  padding-bottom: 20px;
+}
+
+.about__us__img {
+  background-image: url("/d-details/img/various-work-tools-worktop 1.png");
+  width: 600px;
+  height: 720px;
+}
+
+.form__block {
+  display: flex;
+  margin-top: 150px;
+  width: 100%;
+}
+
+.form__block__img {
+  width: 50%;
+}
+
+.contacts {
+  background: rgba(1, 16, 21, 0.87);
+  border-radius: 0px 7px 7px 0px;
+  width: 50%;
+}
+
+.contacts p {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 150%;
+  color: #ffffff;
+  margin: 60px 70px 60px 70px;
+}
+
+form input,
+textarea {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #828282;
+  background: #ffffff;
+  border: 1px solid #828282;
+  border-radius: 7px;
+  margin: 0 0 30px 70px;
+}
+
+form textarea {
+  resize: none;
+  outline: none;
+  width: 490px;
+  height: auto;
+  overflow: auto;
+  padding: 20px 20px 138px 20px;
+  margin-left: 70px;
+}
+
+form input {
+  width: 490px;
+  padding: 20px 0 20px 20px;
+}
+
+form button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 200%;
+  text-transform: uppercase;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  gap: 15px;
+  width: 490px;
+  height: 70px;
+  margin: 30px 0 0 70px;
+  background: #000000;
+  border: 2px solid #ffffff;
+  border-radius: 7px;
+}
+
+.map {
+  margin-top: 372px;
+}
+
+@media (max-width: 1440px) {
+  form input {
+    width: 410px;
+  }
+  form textarea {
+    width: 410px;
+  }
+  form button {
+    width: 410px;
+  }
+  .map {
+    margin-top: 250px;
+  }
+  .about__us__img {
+    width: 500px;
+    height: 600px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .about__us h3 {
+    font-size: 44px;
+  }
+  .about__us label {
+    width: 160px;
+    height: 8px;
+  }
+  .about__us__text p {
+    font-size: 14px;
+  }
+
+  .about__us__text {
+    text-align: left;
+  }
+  .about__us__img {
+    width: 400px;
+    height: 450px;
+  }
+  .about__us__img {
+    text-align: center;
+  }
+  .contacts p {
+    font-size: 26px;
+    margin: 40px 50px 40px 50px;
+  }
+  form input {
+    margin: 0 0 30px 50px;
+  }
+  form textarea {
+    margin: 0 0 30px 50px;
+  }
+  form button {
+    margin: 0 0 30px 50px;
+  }
+  form input {
+    width: 370px;
+  }
+  form textarea {
+    width: 370px;
+  }
+  form button {
+    width: 370px;
+    font-size: 14px;
+  }
+  .map {
+    margin-top: 150px;
+  }
+  iframe {
+    height: 600px;
+  }
+  .video {
+    margin-bottom: 150px;
+  }
+}
+
+@media (max-width: 991px) {
+  .form__block__img {
+    display: none;
+  }
+  .about__us__block {
+    display: block;
+  }
+  .about__us__text {
+    margin-right: 0;
+    width: auto;
+  }
+  .about__us__img {
+    width: auto;
+    background-repeat: no-repeat;
+    margin-left: 7%;
+    height: 370px;
+  }
+  .contacts {
+    width: 100%;
+    text-align: center;
+  }
+  form input {
+    margin: 0 0 30px 0;
+  }
+  form textarea {
+    margin: 0 0 30px 0;
+  }
+  form button {
+    display: inline;
+    margin: 0 0 30px 0;
+    font-size: 12px;
+    height: 55px;
+  }
+  .form__block {
+    margin-top: 70px;
+  }
+  .map {
+    margin-top: 68px;
+  }
+  iframe {
+    height: 500px;
+  }
+  .video {
+    margin-bottom: 80px;
+    height: 450px;
+  }
+}
+@media (max-width: 940px) {
+  .about__us h3 {
+    font-size: 40px;
+  }
+  .about__us label {
+    width: 135px;
+    height: 7px;
+  }
+  .contacts p {
+    font-size: 18px;
+  }
+  form input {
+    width: 370px;
+    padding: 10px 0 10px 20px;
+    font-size: 12px;
+  }
+  form textarea {
+    width: 370px;
+    font-size: 12px;
+    padding: 10px 0 50px 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .about__us__img {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .about__us__img {
+    height: 300px;
+  }
+}
+
+@media (max-width: 600px) {
+  .about__us h3 {
+    font-size: 24px;
+  }
+  .video {
+    height: 300px;
+  }
+}
+
+@media (max-width: 520px) {
+  .about__us h3 {
+    font-size: 24px;
+  }
+  .about__us label {
+    width: 95px;
+    height: 7px;
+  }
+  .about__us__text p {
+    font-size: 10px;
+  }
+  .contacts p {
+    font-size: 18px;
+  }
+  form input {
+    width: 320px;
+  }
+  form textarea {
+    width: 320px;
+  }
+  form button {
+    width: 320px;
+    font-size: 12px;
+  }
+  iframe {
+    height: 350px;
+  }
+  .video {
+    height: 250px;
+  }
+}

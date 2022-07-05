@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+
+* {
+  font-family: "Ubuntu";
+  font-style: normal;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  text-decoration: none;
+}

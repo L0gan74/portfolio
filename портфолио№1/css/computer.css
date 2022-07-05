@@ -1,0 +1,197 @@
+/*Адаптация пк*/
+
+@media screen and (max-width: 1400px) {
+    .skills_html_top_img img{
+        margin:30px 9px 0 34px; ;
+    }
+
+    .skills_html_top_text p {
+        margin: 61px 0 0 0;
+    }
+    .text_top_vs {
+        margin: 49px 5px 0 26px;
+    }
+
+    .skills_foundation_name p{
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 1399px){
+   .skills_full_block{
+       justify-content: space-around;
+   }
+}
+
+@media screen and (max-width: 1350px) {
+    .hat_navigation a{
+        font-size: 22px;
+    }
+    
+    .foundation_left_text_top h1{
+        font-size: 60px;
+    }
+    
+    .foundation_left_text_top p{
+        font-size: 22px;
+    }
+    
+    .aboutMe_text_top p{
+        font-size: 40px;
+    }
+
+    .aboutMe_text_bottom p{
+        font-size: 25px;
+    }
+
+    .myWorks_block_top h2{
+        font-size: 50px;
+    }
+
+    .myWorks_block_1_text p{
+        font-size: 22px;
+    }
+
+    .cooperation_right_top h3{
+        font-size: 40px;
+    }
+
+    .cooperation_input_top p{
+        font-size: 20px;
+    }
+
+    .cooperation_input_top input{
+        font-size: 16px;
+    }
+
+    .cooperation_input_bottom p{
+        font-size: 20px;
+    }
+
+    .cooperation_input_bottom input{
+        font-size: 16px;
+    }
+
+    .skills_text h2{
+        font-size: 50px;
+    }
+
+    .myWorks_block_top h2 {
+        font-size: 50px;
+    }
+
+}
+
+
+@media screen and (max-width: 1200px){
+    .cooperation_input_bottom input {
+        width: 500px;
+    }
+
+    .cooperation_right {
+        margin-left: 80px;
+    }
+
+    .myWorks_block_1_img:hover .btn_mW_b_1{
+        display:none;
+    }
+
+    .foundation_left_text_top h1{
+        font-size: 45px;
+    }
+
+    .bottom_text_vs {
+        margin: 25px 12px 28px 23px;
+    }
+
+    .html_img img{
+        width: 90px;
+        height: 90px;
+        margin: 30px 30px 0 34px;
+    }
+
+    .css_img{
+        width: 110px;
+        height: 110px;
+    }
+
+    .vs_img img{
+        width: 60px;
+        height: 60px;
+    }
+
+    .js_img img{
+        width: 90px;
+        height: 70px;
+    }
+
+    .boot_img img{
+        width: 90px;
+        height: 70px;
+    }
+
+    .fig_img img{
+        width: 55px;
+        height: 54px;
+    }
+
+    .skills_foundation_name p{
+        font-size: 20px;
+    }
+
+    .skills_foundation_bottom p{
+        font-size: 18px;
+    }
+
+    .bottom_text_html p {
+        margin: 34px 0 28px 0;
+    }
+
+    .bottom_text_css {
+        margin: 24px 0 28px 0;
+    }
+
+    .bottom_text_vs {
+        margin: 15px 12px 18px 23px;
+    }
+
+    .bottom_text_js p {
+        margin: 28px 0 25px 0;
+    }
+
+    .bottom_text_boot p {
+        margin: 37px 0 43px 0;
+    }
+
+    .bottom_text_fig p {
+        margin: 32px 0 26px 0;
+    }
+
+    .hat_navigation a{
+    font-size: 20px;
+    }
+    
+    .hat_navigation li{
+    padding-right: 40px;
+    }
+
+    .aboutMe_img img{
+        width: 400px;
+    }
+
+    .cooperation_img img{
+        width: 400px;
+    }
+
+    .text_top_html p {
+        margin-left: 40px;
+    }
+
+    .text_top_js p {
+        margin-left: 30px;
+    }
+
+    .skills_foundation_name p {
+        margin-left: 30px;
+    }
+}

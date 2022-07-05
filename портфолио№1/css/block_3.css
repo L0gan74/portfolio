@@ -1,0 +1,315 @@
+
+
+/*Сотрудничество*/
+
+.cooperation{
+    margin:150px 0;
+}
+
+.cooperation_block{
+    display: flex;
+}
+
+.cooperation_right{
+    margin-left: 130px;
+    position: relative;
+    bottom: 15px;
+}
+
+.cooperation_right_top h3{
+    font-family: Manrope;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 66px;
+color: #FFFFFF;
+}
+
+.cooperation_img img{
+    width: 500px;
+}
+
+.cooperation_input_top p{
+    font-family: Abhaya Libre;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 150%;
+color: #FFFFFF;
+margin-top: 32px;
+margin-bottom: 12px;
+}
+
+.cooperation_input_top input{
+    font-family: Abhaya Libre;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    color: #717AA6;
+    opacity: 0.5;
+border: 2px solid #E9EBF5;
+box-sizing: border-box;
+border-radius: 15px;
+background-image: none; 
+background: transparent;
+padding: 15px 30px 15px 25px;
+}
+
+.cooperation_input_bottom p{
+    font-family: Abhaya Libre;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 150%;
+color: #FFFFFF;
+margin-top: 24px;
+margin-bottom: 12px;
+}
+
+.cooperation_input_bottom textarea{
+    font-family: Abhaya Libre;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    color: #717AA6;
+    opacity: 0.5;
+border: 2px solid #E9EBF5;
+box-sizing: border-box;
+border-radius: 15px;
+background-image: none; 
+background: transparent;
+width: 500px;
+padding: 15px 0 60px 15px;
+}
+
+.cooperation_btn button{
+background: #FF6E30;
+border-radius: 15px;
+border: 0;
+font-family: Abhaya Libre;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 150%;
+color: #FFFFFF;
+padding: 16px 40px 16px 40px;
+margin-top: 40px;
+}
+/*Сотрудничество*/
+
+/*Умения*/
+
+.skills{
+    margin-top: 150px;
+}
+
+.skills_text h2{
+    font-family: Manrope;
+font-style: normal;
+font-weight: normal;
+font-size: 70px;
+line-height: 96px;
+color: #FFFFFF;
+margin-bottom: 90px;
+}
+
+.skills_full_block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skills_foundation{
+background-color: #2A3238;
+    border-radius: 15px;
+    width: 380px;
+height: 270px;
+margin-top: 50px;
+-webkit-transition: 2s ease; 
+-moz-transition: 2s ease; 
+-o-transition: 2s ease;
+}
+
+.skills_foundation_img img{
+    -webkit-transition: 2s ease; 
+-moz-transition: 2s ease; 
+-o-transition: 2s ease;
+}
+
+.skills_foundation_top{
+    display: flex;
+}
+
+.skills_foundation_name p{
+    font-family: Manrope;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 41px;
+color: rgba(255, 255, 255, 0.78);
+}
+
+.html_img img{
+    width: 100px;
+    height: 100px;
+    margin: 30px 30px 0 54px;
+}
+
+#html a:hover{
+    background: url('img/html_navodka.png')s;
+}
+
+.skills_foundation_bottom{
+    font-family: Abhaya Libre;
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 29px;
+text-align: center;
+color: rgba(255, 255, 255, 0.55);
+}
+
+.text_top_html p{
+margin-top: 61px;
+}
+
+.bottom_text_html p{
+    margin: 44px 0 38px 0;
+}
+
+.css_img{
+    width: 120px;
+    height: 120px;
+    margin: 20px 20px 0 34px;
+}
+
+.text_top_css{
+    margin-top: 61px; 
+    margin-left: 10px;
+}
+
+.bottom_text_css{
+    margin: 34px 0 38px 0;
+}
+
+.vs_img img{
+    width: 70px;
+    height: 70px;
+    margin: 46px 0 0 33px;
+}
+
+.text_top_vs{
+    text-align: center;
+    margin: 49px 46px 0 45px;
+}
+
+.bottom_text_vs{
+    margin: 25px 72px 46px 63px;
+}
+
+.js_img img{
+    width: 100px;
+    height: 80px;
+    margin: 30px 34px 0 50px;
+}
+
+.skills_foundation:hover{
+    box-shadow: 0 0 50px rgb(88, 85, 85);
+    transition: 0.1s;
+    transform: scale(1.0);
+}
+
+.text_top_js p{
+    margin: 47px 54px 0 0;
+}
+
+.bottom_text_js p{
+    margin: 38px 0 35px 0;
+}
+
+.boot_img img{
+    width: 100px;
+    height: 80px;
+    margin: 32px 34px 0 35px;
+}
+
+.text_top_boot p{
+    margin: 50px 83px 0 0;
+}
+
+.bottom_text_boot p{
+    margin: 47px 0 53px 0;
+}
+
+.fig_img img{
+    width: 65px;
+    height: 64px;
+    margin: 40px 52px 0 50px;
+}
+
+.text_top_fig p{
+    margin: 50px 132px 0 0;
+}
+
+.bottom_text_fig p{
+    margin: 42px 0 36px 0;
+}
+
+/*Умения*/
+
+/*футер*/
+
+.footer{
+    margin-top: 130px;
+    width: 100%;
+    height: 150px;
+background: #1D2126
+}
+
+.footer_block{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_links{
+    display: flex;
+}
+
+.footer_links img{
+    width: 50px;
+    height: 50px;
+    margin: 35px 20px 0 0;
+}
+
+/*анимация*/
+
+.footer_links a{
+    text-decoration: none;
+    position: relative;
+}
+
+.footer_links a::before {
+	content: '';
+	position: absolute;
+	left: 0;
+    bottom: -5px;
+	width: 0;
+	height: 1.5px;
+	background-color: white;
+}
+
+
+.footer_links a:hover:before {
+	width: 50px;
+}
+
+.footer_links a::before {
+	transition: width 0.35s;
+}
+
+/*анимация*/
+
+
